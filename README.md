@@ -31,8 +31,6 @@
 
 For this program, the goal is to build an API, that will allow a user to create, view, update, or delete data (full CRUD) related to state and national level parks from a database provided by the API - a database that is empty currently, for users to fill out as desired for testing.
 
-Additionally, demonstrating the extra exploration into
-
 ## Setup/Installation Requirements
 
    * Clone from repository (use: `$git clone https:github.com/JuanHasbunZem/ParksAPI.Solution`)
