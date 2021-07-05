@@ -2,9 +2,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ParksAPI.Models
 {
-  public class ParksAPI : DbContext
+  public class ParksAPIContext : DbContext
   {
-    public ParksAPI(DbContextOptions<ParksAPI> options) : base(options)
+    public ParksAPIContext(DbContextOptions<ParksAPIContext> options) : base(options)
     {
     }
 

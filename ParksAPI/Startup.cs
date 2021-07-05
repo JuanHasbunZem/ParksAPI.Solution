@@ -15,7 +15,7 @@ namespace ParksAPI
       Configuration = configuration;
     }
 
-    public IConfiguration configuration { get; }
+    public IConfiguration Configuration { get; }
 
     public void ConfigureServices(IServiceCollection services)
     {
@@ -24,7 +24,7 @@ namespace ParksAPI
       services.AddControllers();
     }
 
-    public void Configure(IApplicationBuiler app, IWebHostEnvironment env)
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
       if(env.IsDevelopment())
       {

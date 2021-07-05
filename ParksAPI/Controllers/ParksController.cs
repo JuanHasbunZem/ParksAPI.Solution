@@ -13,9 +13,9 @@ namespace ParksAPI.Controllers
   [ApiController]
   public class ParksController : ControllerBase
   {
-    private readonly ParksAPI _db;
+    private readonly ParksAPIContext _db;
 
-    public ParksController(ParksController db)
+    public ParksController(ParksAPIContext db)
     {
       _db = db;
     }
